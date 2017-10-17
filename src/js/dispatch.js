@@ -7,7 +7,7 @@ var visibleTab = '';
 
 var updateView = function () {
    updateTab();
-}
+};
 
 function updateTab() {
   for (var i = 0; i < select.length; i++) {
@@ -28,7 +28,7 @@ function getContentsSelector(key) {
 var setVisibleTab = function (value) {
   visibleTab = value;
   dispatcher.trigger('tabChange');
-}
+};
 
 dispatcher.on('tabChange', updateView);
 
