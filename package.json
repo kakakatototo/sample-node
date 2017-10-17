@@ -12,11 +12,12 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-webpack": "^1.5.0",
-    "webpack": "^3.7.1"
+    "webpack": "^3.8.0"
   },
   "dependencies": {}
 }
