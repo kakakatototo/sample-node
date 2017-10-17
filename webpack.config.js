@@ -29,7 +29,9 @@ module.exports = {
                         }]
                     ]
                 }
-            }]
+            }],
+            // node_modules は除外する
+            exclude: /node_modules/,
         }]
     },
     // ソースマップを有効にする
